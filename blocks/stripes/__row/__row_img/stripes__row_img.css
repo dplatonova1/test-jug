@@ -1,0 +1,13 @@
+@keyframes move_bg {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 150px 0;
+    }
+  }
+  
+.stripes__row_img{
+    background-image: url('../../../../images/line_xs.svg');
+    animation: move_bg linear 1s infinite normal;
+  }

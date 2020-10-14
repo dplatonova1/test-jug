@@ -1,0 +1,6 @@
+.popup__overlay_light{
+    top: 50%;
+    height:200px;
+    background-color: #ffffff;
+    color: #000000;
+}

@@ -1,0 +1,12 @@
+@import url('../__row/__row_img/stripes__row_img.css');
+
+.stripes__row {
+    height: 715px;
+  }
+
+  
+@media screen and (max-width: 768px){
+  .stripes__row {
+    height: 500px;
+  }
+}

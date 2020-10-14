@@ -74,7 +74,7 @@
                         <img class="buttons__image" src="./images/handup.png" alt="эмодзи рука вверх">
                         <img class="buttons__image" src="./images/facepalm.png" alt="эмодзи рука-лицо">
                         <a href="#open"><button type="submit" class="buttons__item button_yellow">Купить билет</button></a>
-                        <a href="#open"><button type="submit" class="buttons__item button_dark segment_dark">Купить билет в
+                        <a href="#open"><button type="submit" class="buttons__item button_dark segment_dark">Послать в
                             жопу</button></a>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                     alt="логотипы проводимых JUG.RU конференций">
                     <div class="stripes">
                         <div class="stripes__item">
-                            <div class="stripes__row shadow stripes__row_xs"></div>
+                            <div class="stripes__row shadow stripes__row_img"></div>
                           </div>
                     </div>
                 </div>
@@ -97,13 +97,17 @@
                             <img class="buttons__image" src="./images/handup.png" alt="эмодзи рука вверх">
                             <h3 class="popup__title">Я хочу знать, когда будет офлайн</h3>
                         </div>
+
                         <form class="popup__form popup__form_subscribe" name="subscribe" novalidate>
                             <input type="text" name="email" class="popup__input popup__input_email"
                                 placeholder="Укажите e-mail" required minlength="2" maxlength="200">
-                            <button type="submit" class="popup__button_subscribe">Подписаться</button>
+                                <button type="submit" class="popup__button_subscribe">Подписаться</button>
                         </form>
                         <p class="popup__text">Нажимая на кнопку вы соглашаетесь на обработку <a href=""
                                 class="popup__text_underline">персональных данных</a></p>
+                                <div class="popup__overlay popup__overlay_light" id="thanks">
+                                    <p class="popup__overlay_text">Спасибо, что подписались на нашу рассылку!</p>
+                                </div>
                     </div>
 
                     <div class="popup segment_dark">
@@ -112,15 +116,19 @@
                             <h3 class="popup__title">Идите в жопу!</h3>
                         </div>
                         <form class="popup__form popup__form_reject" name="reject" novalidate>
-                            <button type="submit" class="popup__input popup__button_reject segment_dark">Вы свои цены
-                                видели?</button>
-                            <button type="submit" class="popup__input popup__button_reject segment_dark">Доклады ни о
-                                чем</button>
-                            <button type="submit" class="popup__input popup__button_reject segment_dark">У вас там всё
-                                хорошо?</button>
-                            <button type="submit" class="popup__input popup__button_reject segment_dark">Денег нет, но вы
-                                держитесь</button>
+                            <a href="" class="popup__link"> <button type="submit" class="popup__input popup__button_reject segment_dark">Вы свои цены
+                                видели?</button></a>
+                            <a href="" class="popup__link"><button type="submit" class="popup__input popup__button_reject segment_dark">Доклады ни о
+                                чем</button></a>
+                            <a href="" class="popup__link"> <button type="submit" class="popup__input popup__button_reject segment_dark">У вас там всё
+                                хорошо?</button></a>
+                            <a href="" class="popup__link"> <button type="submit" class="popup__input popup__button_reject segment_dark">Денег нет, но вы
+                                держитесь</button></a>
                         </form>
+                        <div class="popup__overlay popup__overlay_dark" id="no-thanks">
+                            <img class="popup__image" src="./images/thumbsup.png" alt="эмодзи большой палец вверх">
+                            <h3 class="popup__overlay_text">Спасибо, что поделились!</h3>
+                        </div>
                     </div>
                 </div>
                 <div class="questions__back">
@@ -136,6 +144,8 @@
             </section>
         </main>
     </div>
+    <script src="./script.js"></script>
+
 </body>
 
 </html>

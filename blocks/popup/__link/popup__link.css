@@ -1,0 +1,5 @@
+
+.popup__link{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

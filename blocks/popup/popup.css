@@ -5,6 +5,10 @@
 @import url('../popup/__input/popup__input.css');
 @import url('../popup/__text/popup__text.css');
 @import url('../popup/__title/popup__title.css');
+@import url('../popup/__overlay/popup__overlay.css');
+@import url('../popup/__link/popup__link.css');
+@import url('../popup/_is-opened/popup_is-opened.css');
+@import url('../popup/__image/popup__image.css');
 
 .popup{
     width: 610px;
@@ -12,7 +16,10 @@
     border-radius: 20px;
     display: grid;
     margin-left:22px;
+    position: relative;
 }
+
+
 
 @media screen and (max-width: 1024px){
     .popup{

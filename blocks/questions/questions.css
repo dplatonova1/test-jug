@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 1024px){
     .questions{
-		min-height: 100vh;
+		min-height: 200vh;
 		position: absolute;
     }
   } 

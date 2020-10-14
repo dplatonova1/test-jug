@@ -1,35 +1,3 @@
-@keyframes move_bg {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 150px 0;
-  }
-}
- 
-.stripes{
-  width: 110%;
-  top: -220px;
-  right: -50px;
-  position: absolute;
-  overflow: hidden;
-}
-
-.stripes__item {
-  box-sizing: border-box;
-  margin-left: 150px;
-  transform: rotate(-45deg);
-}
-
-.stripes__row {
-  height: 715px;
-}
-
-.stripes__row_xs{
-  background-image: url('../../../images/line_xs.svg');
-  animation: move_bg linear 1s infinite normal;
-}
-
 .lead__image{
   width: 100%;
   position: relative;
@@ -48,18 +16,9 @@
   filter: drop-shadow( -3px 3px 1px rgba(0, 0, 0, 0.4));
 }
 
-
-
 @media screen and (max-width: 768px){
-  .stripes {
-    width: 90%;
-    top: -120px;
-    right: 0;
-  }
   .lead__image{
     min-height: 300px;
   }
-  .stripes__row {
-    height: 500px;
-  }
+
 } 

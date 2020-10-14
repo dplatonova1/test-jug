@@ -3,6 +3,7 @@
 @import url('./blocks/segment/segment.css');
 @import url('./blocks/popup/popup.css');
 @import url('./blocks/button/buttons.css');
+@import url('./blocks/stripes/stripes.css');
 
 @font-face {
 src: url(./fonts/Montserrat-Light.ttf) format("truetype"),
