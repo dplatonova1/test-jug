@@ -1,4 +1,11 @@
 .lead__logo{
     width: 126px;
-    height: 41px;
+    height: calc(100%/3);
 }
+
+@media screen and (max-width: 768px){
+    .lead__logo{
+        width: 226px;
+    }
+  } 
+  

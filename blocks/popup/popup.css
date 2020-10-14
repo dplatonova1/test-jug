@@ -13,3 +13,11 @@
     display: grid;
     margin-left:22px;
 }
+
+@media screen and (max-width: 1024px){
+    .popup{
+        width: 80%;
+        height: 70%;
+    }
+  } 
+  

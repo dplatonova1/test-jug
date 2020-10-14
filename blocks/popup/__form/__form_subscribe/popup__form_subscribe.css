@@ -5,3 +5,11 @@
     grid-column-start: 1;
     grid-column-end: 3;
 }
+
+
+@media screen and (max-width: 1024px){
+    .popup__form_subscribe{
+		grid-template-columns:1fr;
+    }
+  } 
+  
