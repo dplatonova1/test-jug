@@ -1,0 +1,30 @@
+@import url('../questions/__popups/questions__popups.css');
+@import url('../questions/__back/questions__back.css');
+@import url('../questions/__link/questions__link.css');
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.questions:target {
+	opacity:1;
+	pointer-events: auto;
+}
+

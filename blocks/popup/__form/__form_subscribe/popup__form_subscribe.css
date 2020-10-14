@@ -1,0 +1,7 @@
+.popup__form_subscribe{
+    margin: 100px 52px auto 52px;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

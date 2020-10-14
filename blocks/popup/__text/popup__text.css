@@ -1,0 +1,9 @@
+.popup__text{
+    margin: auto auto 50px 52px;
+    color: rgba(0, 0, 0, 0.32)
+}
+
+.popup__text_underline{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.32)
+}

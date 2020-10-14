@@ -1,0 +1,18 @@
+@import url('../button/__image/buttons__image.css');
+@import url('../button/__item/buttons__item.css');
+@import url('../button/_dark/button_dark.css');
+@import url('../button/_yellow/button_yellow.css');
+
+.buttons{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 0px;
+    grid-column-gap: 21px;
+    justify-items: center;
+    margin-top: 48px;
+}
+
+
+
+

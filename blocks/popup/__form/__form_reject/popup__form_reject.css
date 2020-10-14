@@ -1,0 +1,6 @@
+.popup__form_reject{
+    margin: 82px 85px 70px 85px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+}

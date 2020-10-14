@@ -1,0 +1,9 @@
+.buttons__item{
+    width: 210px;
+    height: 65px;
+    border: none;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 27px;
+}

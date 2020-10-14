@@ -1,0 +1,6 @@
+@import url('../__form/__form_reject/popup__form_reject.css');
+@import url('../__form/__form_subscribe/popup__form_subscribe.css');
+
+.popup__form{
+    display: grid;
+}

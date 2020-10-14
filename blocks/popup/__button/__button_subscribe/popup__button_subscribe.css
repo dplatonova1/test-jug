@@ -1,0 +1,14 @@
+.popup__button_subscribe{
+    background-color: transparent;
+    border: solid rgba(0, 0, 0, 0.16) 1px;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.popup__button_subscribe:hover{
+    background-color: #F2F2F2
+    }

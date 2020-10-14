@@ -1,0 +1,15 @@
+@import url('../popup/_light/popup_light.css');
+@import url('../popup/__button/popup__button.css');
+@import url('../popup/__form/popup__form.css');
+@import url('../popup/__header/popup__header.css');
+@import url('../popup/__input/popup__input.css');
+@import url('../popup/__text/popup__text.css');
+@import url('../popup/__title/popup__title.css');
+
+.popup{
+    width: 610px;
+    height: 498px;
+    border-radius: 20px;
+    display: grid;
+    margin-left:22px;
+}

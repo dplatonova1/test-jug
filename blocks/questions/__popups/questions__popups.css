@@ -1,0 +1,7 @@
+.questions__popups{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 87px 56px 75px 80px;
+}

@@ -1,0 +1,9 @@
+.popup__input_email{
+    width: 334px;
+    background-color: #F8F8F8;
+    border: none;
+    border-radius: 11px;
+    font-family: inherit;
+    font-size: 14px;
+    padding-left: 28px;
+}

@@ -1,0 +1,14 @@
+.popup__button_reject{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: solid #FFFFFF 1px;
+    border-radius: 45px;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.popup__button_reject:hover{
+    color: #000000;
+    background-color: #FFFFFF;
+}

@@ -1,0 +1,9 @@
+
+.questions__link{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #000000;
+    text-decoration: none; 
+}

@@ -1,0 +1,20 @@
+@import url('../lead/__image/lead__image.css');
+@import url('../lead/__image/lead__image.css');
+@import url('../lead/__info/lead__info.css');
+@import url('../lead/__logo/lead__logo.css');
+@import url('../lead/__title/lead__title.css');
+
+.lead {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+
+
+
+

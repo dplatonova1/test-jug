@@ -1,0 +1,6 @@
+.popup__header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 50px auto auto 25px;
+ }
