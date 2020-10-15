@@ -1,17 +1,10 @@
 .popup__overlay_dark{
     top: 15px;
     height:450px;
-    background-color: #000000;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 @media screen and (max-width: 500px){
     .popup__overlay_dark{
         height:350px;
-    }
-  
+    } 
   } 
