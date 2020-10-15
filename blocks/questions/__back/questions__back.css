@@ -1,4 +1,17 @@
 .questions__back{
     align-self: flex-start;
-    margin-left: 18%;
+    margin-left: 80px;
 }
+
+
+@media screen and (max-width: 1024px){
+    .questions__back{
+        margin-bottom: 45px;
+    }
+  } 
+
+  @media screen and (max-width: 500px){
+    .questions__back{
+        margin-left: 40px;
+    }
+  } 
