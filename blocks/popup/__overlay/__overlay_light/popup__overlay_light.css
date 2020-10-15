@@ -5,9 +5,18 @@
     color: #000000;
 }
 
+
+@media screen and (max-width: 1024px){
+    .popup__overlay_light{
+        top: 40%;
+        height:250px;
+    }
+  
+  } 
+
 @media screen and (max-width: 500px){
     .popup__overlay_light{
-        height:200px;
+        top: 30%;
     }
   
   } 
