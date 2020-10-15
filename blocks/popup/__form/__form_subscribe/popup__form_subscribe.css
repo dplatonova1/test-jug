@@ -9,6 +9,7 @@
 
 @media screen and (max-width: 1024px){
     .popup__form_subscribe{
+      margin-top: 30px;
     grid-template-columns:1fr;
     grid-row-gap: 10px;
     }
