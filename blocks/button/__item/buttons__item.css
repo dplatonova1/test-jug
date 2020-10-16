@@ -6,12 +6,11 @@
     font-family: inherit;
     font-size: 18px;
     line-height: 27px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 500px){
     .buttons__item{
-        width: 170px;
-        height: 65px;
         font-size: 14px;
         line-height: 18px;
     }

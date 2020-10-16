@@ -8,6 +8,8 @@
     font-size: 14px;
     line-height: 18px;
     margin-left: 20px;
+    cursor: pointer;
+
 }
 
 .popup__button_subscribe:hover{

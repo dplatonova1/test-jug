@@ -71,11 +71,17 @@
                     <p class="lead__text"> С нас — крутая программа, топовые спикеры, технические доклады без воды.</p>
                     <p class="lead__text"> С вас — готовность смотреть и общаться.</p>
                     <div class="buttons">
-                        <img class="buttons__image" src="./images/handup.png" alt="эмодзи рука вверх">
+                        <span class="button">
+                            <a href="#open">
+                            <img class="buttons__image" src="./images/handup.png" alt="эмодзи рука вверх">
+                            <button type="submit" class="buttons__item button_yellow">Купить билет</button></a>
+                        </span>
+                        <span class="button">
+                            <a href="#open">
                         <img class="buttons__image" src="./images/facepalm.png" alt="эмодзи рука-лицо">
-                        <a href="#open"><button type="submit" class="buttons__item button_yellow">Купить билет</button></a>
-                        <a href="#open"><button type="submit" class="buttons__item button_dark segment_dark">Послать в
+                        <button type="submit" class="buttons__item button_dark segment_dark">Послать в
                             жопу</button></a>
+                        </span>
                     </div>
                 </div>
                
@@ -91,55 +97,58 @@
             </section>
 
             <section class="questions" id="open">
-                <div class="questions__popups">
-                    <div class="popup popup_light">
-                        <div class="popup__header">
-                            <img class="buttons__image" src="./images/handup.png" alt="эмодзи рука вверх">
-                            <h3 class="popup__title">Я хочу знать, когда будет офлайн</h3>
+                <div class="questions__wrapper">
+                    <div class="questions__popups">
+                        <div class="popup popup_light">
+                            <div class="popup__header">
+                                <img class="buttons__image" src="./images/handup.png" alt="эмодзи рука вверх">
+                                <h3 class="popup__title">Я хочу знать, когда будет офлайн</h3>
+                            </div>
+    
+                            <form class="popup__form popup__form_subscribe" name="subscribe" novalidate>
+                                <input type="text" name="email" class="popup__input popup__input_email"
+                                    placeholder="Укажите e-mail" required minlength="2" maxlength="200">
+                                    <button type="submit" class="popup__button_subscribe">Подписаться</button>
+                            </form>
+                            <p class="popup__text">Нажимая на кнопку вы соглашаетесь на обработку <a href=""
+                                    class="popup__text_underline">персональных данных</a></p>
+                                    <div class="popup__overlay popup__overlay_light" id="thanks">
+                                        <p class="popup__overlay_text">Спасибо, что подписались на нашу рассылку!</p>
+                                    </div>
                         </div>
-
-                        <form class="popup__form popup__form_subscribe" name="subscribe" novalidate>
-                            <input type="text" name="email" class="popup__input popup__input_email"
-                                placeholder="Укажите e-mail" required minlength="2" maxlength="200">
-                                <button type="submit" class="popup__button_subscribe">Подписаться</button>
-                        </form>
-                        <p class="popup__text">Нажимая на кнопку вы соглашаетесь на обработку <a href=""
-                                class="popup__text_underline">персональных данных</a></p>
-                                <div class="popup__overlay popup__overlay_light" id="thanks">
-                                    <p class="popup__overlay_text">Спасибо, что подписались на нашу рассылку!</p>
-                                </div>
+    
+                        <div class="popup segment_dark">
+                            <div class="popup__header">
+                                <img class="popup__image" src="./images/facepalm.png" alt="эмодзи рука-лицо">
+                                <h3 class="popup__title">Идите в жопу!</h3>
+                            </div>
+                            <form class="popup__form popup__form_reject" name="reject" novalidate>
+                                <a href="" class="popup__link"> <button type="submit" class="popup__input popup__button_reject segment_dark">Вы свои цены
+                                    видели?</button></a>
+                                <a href="" class="popup__link"><button type="submit" class="popup__input popup__button_reject segment_dark">Доклады ни о
+                                    чем</button></a>
+                                <a href="" class="popup__link"> <button type="submit" class="popup__input popup__button_reject segment_dark">У вас там всё
+                                    хорошо?</button></a>
+                                <a href="" class="popup__link"> <button type="submit" class="popup__input popup__button_reject segment_dark">Денег нет, но вы
+                                    держитесь</button></a>
+                            </form>
+                            <div class="popup__overlay popup__overlay_dark segment_dark" id="no-thanks">
+                                <img class="popup__image" src="./images/thumbsup.png" alt="эмодзи большой палец вверх">
+                                <h3 class="popup__overlay_text">Спасибо, что поделились!</h3>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="popup segment_dark">
-                        <div class="popup__header">
-                            <img class="buttons__image" src="./images/facepalm.png" alt="эмодзи рука-лицо">
-                            <h3 class="popup__title">Идите в жопу!</h3>
-                        </div>
-                        <form class="popup__form popup__form_reject" name="reject" novalidate>
-                            <a href="" class="popup__link"> <button type="submit" class="popup__input popup__button_reject segment_dark">Вы свои цены
-                                видели?</button></a>
-                            <a href="" class="popup__link"><button type="submit" class="popup__input popup__button_reject segment_dark">Доклады ни о
-                                чем</button></a>
-                            <a href="" class="popup__link"> <button type="submit" class="popup__input popup__button_reject segment_dark">У вас там всё
-                                хорошо?</button></a>
-                            <a href="" class="popup__link"> <button type="submit" class="popup__input popup__button_reject segment_dark">Денег нет, но вы
-                                держитесь</button></a>
-                        </form>
-                        <div class="popup__overlay popup__overlay_dark segment_dark" id="no-thanks">
-                            <img class="popup__image" src="./images/thumbsup.png" alt="эмодзи большой палец вверх">
-                            <h3 class="popup__overlay_text">Спасибо, что поделились!</h3>
-                        </div>
+                    <div class="questions__back">
+                        <a href="#lead" class="questions__link">
+                            <svg width="24" height="39" viewBox="0 0 24 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.3335 37L3.00016 19.5L21.3335 2" stroke="black" stroke-width="4"
+                                    stroke-linecap="round" />
+                            </svg>
+                            <h3 class="popup__title">Я кликнул просто посмотреть</h3>
+                        </a>
                     </div>
                 </div>
-                <div class="questions__back">
-                    <a href="#lead" class="questions__link">
-                        <svg width="24" height="39" viewBox="0 0 24 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M21.3335 37L3.00016 19.5L21.3335 2" stroke="black" stroke-width="4"
-                                stroke-linecap="round" />
-                        </svg>
-                        <h3 class="popup__title">Я кликнул просто посмотреть</h3>
-                    </a>
-                </div>
+                
 
             </section>
         </main>

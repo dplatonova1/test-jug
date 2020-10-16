@@ -4,6 +4,8 @@
     font-family: inherit;
     font-size: 14px;
     line-height: 18px;
+    cursor: pointer;
+
 }
 
 .popup__button_reject:hover{

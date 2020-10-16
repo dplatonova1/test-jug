@@ -3,18 +3,18 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 87px 56px 75px 80px;
+    margin-bottom: 75px;
 }
 
 @media screen and (max-width: 1024px){
     .questions__popups{
         flex-direction: column;
-        margin: 77px auto 55px auto
+        margin-bottom: 55px;
     }
   } 
   @media screen and (max-width: 500px){
     .questions__popups{
-        margin: 30px auto 35px auto
+        margin-bottom: 35px;
     }
   
   } 

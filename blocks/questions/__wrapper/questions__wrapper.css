@@ -1,0 +1,16 @@
+.questions__wrapper{
+    margin: 87px 56px auto 80px;
+}
+
+@media screen and (max-width: 1024px){
+    .questions__wrapper{
+        flex-direction: column;
+        margin: 77px auto auto auto;
+    }
+  } 
+  @media screen and (max-width: 500px){
+    .questions__wrapper{
+        margin: 30px auto 35px 30px;
+    }
+  
+  } 
